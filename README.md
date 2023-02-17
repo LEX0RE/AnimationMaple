@@ -3,4 +3,4 @@ Animation à l'aide du logiciel Maple dans le cadre du cours d'algèbre linéair
 
 Équipe gagante du concours d'animation de l'année 2018
 
-![](https://github.com/LEX0RE/AnimationMaple/equipe02.gif)
+![](https://github.com/LEX0RE/AnimationMaple/blob/master/equipe02.gif)
