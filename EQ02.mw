@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2018" minor="0"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Profile Maple par d\303\251faut" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="768" rtablesize="infinity" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" elisiondigitsthreshold="10000" showassumed="1" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1"><Font foreground="[0,0,255]" encoding="UTF-8">Pr\303\251ambule bonifi\303\251 avec Trans, Rot et Hom
+</Font><Font mathvariant="bold" mathbackground="[255,255,255]" fontweight="bold" mathsize="18" fontfamily="Times New Roman" encoding="UTF-8" mathcolor="[0,0,0]">Alexandre G\303\251linas et Myriam Bellerose : \303\251quipe 2</Font></Text-field></Title>
+<Group labelreference="L3100" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">restart:
+with(plots):with(plottools):with(LinearAlgebra):
+interface(rtablesize=infinity, displayprecision=4<Font encoding="UTF-8">):  # Pour afficher m\303\252me les matrices tr\303\250s longues</Font></Text-field>
+</Input>
+</Group>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" foreground="[0,0,255]" layout="Heading 2"><Font foreground="[0,0,255]" encoding="UTF-8">La proc\303\251dure </Font><Font foreground="[0,0,255]">Relier(obj, couleur)</Font></Text-field></Title>
+<Group labelreference="L3092" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="14">On utilise la <Font encoding="UTF-8">proc\303\251dure </Font><Font bold="true">Relier(obj,couleur)</Font><Font encoding="UTF-8"> pour tracer seulement le contour de l'objet d\303\251fini par la matrice </Font><Font bold="true">obj</Font><Font encoding="UTF-8">. La commande tracera une ligne droite du point 1 (c-\303\240-d dans la colonne 1) au point 2, une autre du point 2 au point 3, etc. Si on veut lever le crayon , il suffit d'ins\303\251rer un colonne contenant la valeur <Font bold="true">\342\210\236</Font>, qu s'\303\251crit </Font><Font bold="true">infinity</Font> en langage <Font bold="true">Maple</Font>. <Font encoding="UTF-8">Lorsqu'on veut tracer l'objet avec diff\303\251rentes couleurs, on pr\303\251cisera</Font> les couleurs  sous la forme d'une liste <Font bold="true">[couleur1=</Font></Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtSSNtbkdGJDYoUSIxRidGMkY1RjovRj5GQkZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEjLi5GJ0YyRjVGOkZJRkAvJSZmZW5jZUdGPC8lKnNlcGFyYXRvckdGPC8lKXN0cmV0Y2h5R0Y8LyUqc3ltbWV0cmljR0Y8LyUobGFyZ2VvcEdGPC8lLm1vdmFibGVsaW1pdHNHRjwvJSdhY2NlbnRHRjwvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR1EmMC4wZW1GJy1GLDYlRi4tRiM2Ki1GLzYpUSJqRidGMkY1RjhGOkY9RkBGMkY1RjhGOkZPRj1GQEZSRjJGNUY6Rk9GSUZA">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtSSNtbkdGJDYoUSIxRidGMkY1RjovRj5GQkZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEjLi5GJ0YyRjVGOkZJRkAvJSZmZW5jZUdGPC8lKnNlcGFyYXRvckdGPC8lKXN0cmV0Y2h5R0Y8LyUqc3ltbWV0cmljR0Y8LyUobGFyZ2VvcEdGPC8lLm1vdmFibGVsaW1pdHNHRjwvJSdhY2NlbnRHRjwvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR1EmMC4wZW1GJy1GLDYlRi4tRiM2Ki1GLzYpUSJqRidGMkY1RjhGOkY9RkBGMkY1RjhGOkZPRj1GQEZSRjJGNUY6Rk9GSUZA</Equation><Font size="14" bold="true"> , couleur2=</Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNi4tRi82KVEiakYnRjJGNUY4RjpGPUZALUkjbW9HRiQ2MVEiK0YnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmduLUkjbW5HRiQ2KFEiMUYnRjJGNUY6RkxGQEYyRjVGOC8lK2ZvcmVncm91bmRHUSxbMjAwLDAsMjAwXUYnRjovJSxwbGFjZWhvbGRlckdGNy8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y9RkAvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0YyRjVGOkZjb0ZMRkA=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNi4tRi82KVEiakYnRjJGNUY4RjpGPUZALUkjbW9HRiQ2MVEiK0YnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmduLUkjbW5HRiQ2KFEiMUYnRjJGNUY6RkxGQEYyRjVGOC8lK2ZvcmVncm91bmRHUSxbMjAwLDAsMjAwXUYnRjovJSxwbGFjZWhvbGRlckdGNy8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y9RkAvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0YyRjVGOkZjb0ZMRkA=</Equation><Font size="14" bold="true">..</Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtRi82KVEia0YnRjJGNUY4RjpGPUZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEifkYnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRmJvLUZUNjFRIixGJ0YyRjVGOkZXRkBGWC9GZW5GN0ZmbkZobkZqbkZcb0Zeb0Zgby9GZG9RLDAuMzMzMzMzM2VtRidGUy1GVDYxUSMuLkYnRjJGNUY6RldGQEZYRlpGZm5GaG5Gam5GXG9GXm8vRmFvUSwwLjIyMjIyMjJlbUYnRmNvLUZUNjFRIi5GJ0YyRjVGOkZXRkBGWEZaRmZuRmhuRmpuRlxvRl5vRmBvRmNvRjJGNUY6Rk1GV0ZA">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtRi82KVEia0YnRjJGNUY4RjpGPUZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEifkYnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRmJvLUZUNjFRIixGJ0YyRjVGOkZXRkBGWC9GZW5GN0ZmbkZobkZqbkZcb0Zeb0Zgby9GZG9RLDAuMzMzMzMzM2VtRidGUy1GVDYxUSMuLkYnRjJGNUY6RldGQEZYRlpGZm5GaG5Gam5GXG9GXm8vRmFvUSwwLjIyMjIyMjJlbUYnRmNvLUZUNjFRIi5GJ0YyRjVGOkZXRkBGWEZaRmZuRmhuRmpuRlxvRl5vRmBvRmNvRjJGNUY6Rk1GV0ZA</Equation><Font size="14" bold="true">]</Font><Font size="14" encoding="UTF-8"> (le contour de l'objet d\303\251fini de la colonne 1 \303\240 la colonne j sera colori\303\251 avec la couleur </Font><Font size="14" bold="true">couleur1</Font><Font size="14"> et ainsi de suite).<Font encoding="UTF-8"> Pour une liste des choix de couleurs, faites une recherche dans l'aide Maple avec le mot-cl\303\251 &quot;</Font><Font bold="true">colornames</Font>&quot;.
+</Font><Font size="16">
+</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Relier:=proc(obj::Matrix,couleur)::list;
+option `Copyright (c) 2016 Martin Courchesne`:
+local j,w,k,i,bloc,sum:
+use plots,plottools,LinearAlgebra in
+
+if type(couleur,list) then  
+  for k from 1 to numelems(couleur) do
+    bloc[k]:=Relier(obj[1..2,rhs(couleur[k])],lhs(couleur[k]),_passed[3.._npassed]):
+  od:
+  return display(seq(bloc[k],k=1..numelems(couleur)));
+end if:
+
+i:=1:
+for j from 1 to (ColumnDimension(obj)-1) do
+  sum:=evalf(obj[1,j]+obj[2,j]+obj[1,j+1]+obj[2,j+1]):
+  if not type(sum,undefined) and (abs(sum) &lt; evalf(infinity)) then
+    w[i]:=line([obj[1,j],obj[2,j]],[obj[1,j+1],obj[2,j+1]],color=couleur,_passed[3.._npassed]):
+    i:=i+1:
+  end if:
+od:
+return display(seq(w[i],i=1..numelems(w)));
+
+end use:
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title>
+<Group labelreference="L3105" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+</Input>
+</Group><Text-field style="Heading 2" foreground="[0,0,255]" layout="Heading 2"><Font foreground="[0,0,255]" encoding="UTF-8">La proc\303\251dure </Font><Font foreground="[0,0,255]">RelierPlein(obj, couleur) </Font></Text-field></Title>
+<Group labelreference="L3095" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" size="14" layout="Normal"><Font size="14" encoding="UTF-8">La proc\303\251dure </Font><Font size="14" bold="true">RelierPlein(obj,couleur)</Font><Font size="14"> tente de remplir la forme <Font encoding="UTF-8">d\303\251finie par la matrice </Font><Font bold="true">obj</Font>. <Font encoding="UTF-8"> (Si la forme est trop irr\303\251guli\303\250re, le r\303\251sultat peut \303\252tre douteux...). Pour s\303\251parer la forme en plusieurs polygones distincts, on peut ins\303\251rer une colonne contenant <Font bold="true">\342\210\236</Font></Font>. <Font encoding="UTF-8">Lorsqu'on veut remplir les diff\303\251rentes parties de l'objet avec diff\303\251rentes couleurs, on pr\303\251cisera</Font> les couleurs pour chacune des parties sous la forme d'une liste <Font bold="true">[couleur1=</Font></Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtSSNtbkdGJDYoUSIxRidGMkY1RjovRj5GQkZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEjLi5GJ0YyRjVGOkZJRkAvJSZmZW5jZUdGPC8lKnNlcGFyYXRvckdGPC8lKXN0cmV0Y2h5R0Y8LyUqc3ltbWV0cmljR0Y8LyUobGFyZ2VvcEdGPC8lLm1vdmFibGVsaW1pdHNHRjwvJSdhY2NlbnRHRjwvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR1EmMC4wZW1GJy1GLDYlRi4tRiM2Ki1GLzYpUSJqRidGMkY1RjhGOkY9RkBGMkY1RjhGOkZPRj1GQEZSRjJGNUY6Rk9GSUZA">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYrLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtSSNtbkdGJDYoUSIxRidGMkY1RjovRj5GQkZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEjLi5GJ0YyRjVGOkZJRkAvJSZmZW5jZUdGPC8lKnNlcGFyYXRvckdGPC8lKXN0cmV0Y2h5R0Y8LyUqc3ltbWV0cmljR0Y8LyUobGFyZ2VvcEdGPC8lLm1vdmFibGVsaW1pdHNHRjwvJSdhY2NlbnRHRjwvJSdsc3BhY2VHUSwwLjIyMjIyMjJlbUYnLyUncnNwYWNlR1EmMC4wZW1GJy1GLDYlRi4tRiM2Ki1GLzYpUSJqRidGMkY1RjhGOkY9RkBGMkY1RjhGOkZPRj1GQEZSRjJGNUY6Rk9GSUZA</Equation><Font size="14" bold="true"> , couleur2=</Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNi4tRi82KVEiakYnRjJGNUY4RjpGPUZALUkjbW9HRiQ2MVEiK0YnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmduLUkjbW5HRiQ2KFEiMUYnRjJGNUY6RkxGQEYyRjVGOC8lK2ZvcmVncm91bmRHUSxbMjAwLDAsMjAwXUYnRjovJSxwbGFjZWhvbGRlckdGNy8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y9RkAvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0YyRjVGOkZjb0ZMRkA=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYpLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNi4tRi82KVEiakYnRjJGNUY4RjpGPUZALUkjbW9HRiQ2MVEiK0YnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRLDAuMjIyMjIyMmVtRicvJSdyc3BhY2VHRmduLUkjbW5HRiQ2KFEiMUYnRjJGNUY6RkxGQEYyRjVGOC8lK2ZvcmVncm91bmRHUSxbMjAwLDAsMjAwXUYnRjovJSxwbGFjZWhvbGRlckdGNy8lMGZvbnRfc3R5bGVfbmFtZUdRJVRleHRGJ0Y9RkAvJS9zdWJzY3JpcHRzaGlmdEdRIjBGJ0YyRjVGOkZjb0ZMRkA=</Equation><Font size="14" bold="true">..</Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtRi82KVEia0YnRjJGNUY4RjpGPUZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEifkYnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRmJvLUZUNjFRIixGJ0YyRjVGOkZXRkBGWC9GZW5GN0ZmbkZobkZqbkZcb0Zeb0Zgby9GZG9RLDAuMzMzMzMzM2VtRidGUy1GVDYxUSMuLkYnRjJGNUY6RldGQEZYRlpGZm5GaG5Gam5GXG9GXm8vRmFvUSwwLjIyMjIyMjJlbUYnRmNvLUZUNjFRIi5GJ0YyRjVGOkZXRkBGWEZaRmZuRmhuRmpuRlxvRl5vRmBvRmNvRjJGNUY6Rk1GV0ZA">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYuLUklbXN1YkdGJDYlLUkjbWlHRiQ2KVEiQ0YnLyUlc2l6ZUdRIzE0RicvJSVib2xkR1EldHJ1ZUYnLyUnaXRhbGljR0Y3LyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRLGJvbGQtaXRhbGljRicvJStmb250d2VpZ2h0R1ElYm9sZEYnLUYjNiwtRi82KVEia0YnRjJGNUY4RjpGPUZARjJGNUY4LyUrZm9yZWdyb3VuZEdRLFsyMDAsMCwyMDBdRidGOi8lLHBsYWNlaG9sZGVyR0Y3LyUwZm9udF9zdHlsZV9uYW1lR1ElVGV4dEYnRj1GQC8lL3N1YnNjcmlwdHNoaWZ0R1EiMEYnLUkjbW9HRiQ2MVEifkYnRjJGNUY6L0Y+RkJGQC8lJmZlbmNlR0Y8LyUqc2VwYXJhdG9yR0Y8LyUpc3RyZXRjaHlHRjwvJSpzeW1tZXRyaWNHRjwvJShsYXJnZW9wR0Y8LyUubW92YWJsZWxpbWl0c0dGPC8lJ2FjY2VudEdGPC8lJ2xzcGFjZUdRJjAuMGVtRicvJSdyc3BhY2VHRmJvLUZUNjFRIixGJ0YyRjVGOkZXRkBGWC9GZW5GN0ZmbkZobkZqbkZcb0Zeb0Zgby9GZG9RLDAuMzMzMzMzM2VtRidGUy1GVDYxUSMuLkYnRjJGNUY6RldGQEZYRlpGZm5GaG5Gam5GXG9GXm8vRmFvUSwwLjIyMjIyMjJlbUYnRmNvLUZUNjFRIi5GJ0YyRjVGOkZXRkBGWEZaRmZuRmhuRmpuRlxvRl5vRmBvRmNvRjJGNUY6Rk1GV0ZA</Equation><Font size="14" bold="true">]</Font><Font size="14" encoding="UTF-8"> (la partie 1 d\303\251finie  de la colonne 1 \303\240 la colonne j sera remplie de la couleur </Font><Font size="14" bold="true">couleur1</Font><Font size="14"> et ainsi de suite).</Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RelierPlein:=proc(obj::Matrix,couleur)::list;
+option `Copyright (c) 2016 Martin Courchesne`:
+local j,w,k,bloc,ptlist,sum:
+use plots,plottools,LinearAlgebra in
+
+if type(couleur,list) then  
+  for k from 1 to numelems(couleur) do
+    bloc[k]:=RelierPlein(obj[1..2,rhs(couleur[k])],lhs(couleur[k]),_passed[3.._npassed]):
+  od:
+  return display(seq(bloc[k],k=1..numelems(couleur)));
+end if:
+
+ptlist:=[]:
+for j from 1 to ColumnDimension(obj) do 
+  sum:=evalf(obj[1,j]+obj[2,j]):
+  if not type(sum,undefined) and (abs(sum) &lt; evalf(infinity)) then
+    ptlist:=[op(ptlist),[obj[1,j],obj[2,j]]]:
+  elif j&lt;ColumnDimension(obj) then    # we hit an infinite value in the matrix, not in the last column
+    return display(polygon(ptlist,color=couleur, _passed[3.._npassed]),
+                   RelierPlein(obj[1..2,j+1..ColumnDimension(obj)],couleur,_passed[3.._npassed])):
+  else return display(polygon(ptlist,color=couleur, _passed[3.._npassed])):
+  end if:
+od:
+return display(polygon(ptlist,color=couleur, _passed[3.._npassed])):
+
+end use:
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" foreground="[0,0,255]" layout="Heading 2"><Font foreground="[0,0,255]" encoding="UTF-8">La proc\303\251dure </Font><Font foreground="[0,0,255]">ReadMatrixFromFile(filename)</Font></Text-field></Title>
+<Group labelreference="L3102" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Les commandes suivantes permettent l'importation d'une matrice \303\240 partir d'un fichier texte (.txt)</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3097" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Voici la proc\303\251dure qui s\303\251pare un string contenant des nombres en un vecteur de nombres (entiers ou r\303\251els)</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3103" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">SplitIntoNumbers:=proc(str, <Font encoding="UTF-8">{ decimal_separator::string := &quot;\134.&quot; }</Font>)
+  local chunks,k:
+<Font encoding="UTF-8">  chunks:=convert(remove(type,[StringTools:-RegSplit](cat(&quot;[^0-9\134\134&quot;,decimal_separator,&quot;-&quot;,&quot;]+&quot;),str),&quot;&quot;),Vector):
+</Font>  for k from 1 to numelems(chunks) do
+<Font encoding="UTF-8">    chunks[k] := parse(StringTools:-Substitute(chunks[k],decimal_separator,&quot;\134.&quot;)):
+</Font>  od:
+  return chunks:
+end proc:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3091" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Pour lire une matrice \303\240 partir d'un fichier:</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3098" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">ReadMatrixFromFile:=proc(filename::string, {pen_lift::string:=&quot;#&quot;})
+  local fd,A,B,i,current_line,row_dim,leading_pen_lift_count,infinity_vec:
+  option `Copyright (c) 2018 Martin Courchesne`:
+  use FileTools[Text] in
+
+  if FileTools:-Exists(filename) then
+    fd:=Open(filename):
+  else
+<Font encoding="UTF-8">    error &quot;Le fichier %1 n'a pas \303\251t\303\251 trouv\303\251 dans le r\303\251pertoire actuel: %2. Vous pouvez modifier ce r\303\251pertoire en cliquant dessus, en bas \303\240 droite de la fen\303\252tre Maple.&quot;, filename, currentdir():
+</Font>  end if:
+
+  <Font encoding="UTF-8">leading_pen_lift_count := 0:   # On va compter le nombre de lignes contenant un di\303\250ses qui pr\303\251c\303\250dent la 1re ligne contenant un point</Font>
+  try
+  current_line:=&quot;&quot;:
+  while (length(current_line)=0 or StringTools:-RegMatch(pen_lift,current_line)) do
+    current_line:=ReadLine(fd):
+    if StringTools:-RegMatch(pen_lift,current_line) then
+      leading_pen_lift_count := leading_pen_lift_count + 1:
+    end if:
+  od:
+  A:=SplitIntoNumbers(current_line):
+  row_dim:=LinearAlgebra:-Dimension(A):
+  infinity_vec := Vector(row_dim,fill=infinity):
+
+  for i from 1 to leading_pen_lift_count do
+    A:=&lt;infinity_vec|A&gt;:
+  end do:
+
+  current_line:=ReadLine(fd):
+  while current_line&lt;&gt;NULL do
+    if StringTools:-RegMatch(pen_lift,current_line) then
+      A:=&lt;A|infinity_vec&gt;:
+    elif length(current_line)&lt;&gt;0 then
+      B:=SplitIntoNumbers(current_line):
+      if LinearAlgebra:-Dimension(B)=row_dim then
+        A:=&lt;A|B&gt;:
+      end if:
+    end if:
+    current_line:=ReadLine(fd):
+  od:
+
+  finally
+  Close(fd):
+  end try:
+
+  end use:
+
+  return A:
+end proc:</Text-field>
+</Input>
+</Group>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" foreground="[0,0,255]" layout="Heading 2"><Font foreground="[0,0,255]" encoding="UTF-8">La proc\303\251dure Trans</Font><Font foreground="[0,0,255]">(m, a, b)</Font></Text-field></Title>
+<Group labelreference="L3096" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="14" encoding="UTF-8">La proc\303\251dure </Font><Font size="14" bold="true">Trans(obj)</Font><Font size="14"> construit une matrice de translation pour la matrice d'objet <Font bold="true">obj</Font><Font encoding="UTF-8">. Cette matrice a le m\303\252me format que obj, mais chaque \303\251l\303\251ment de la premi\303\250re ligne a la m\303\252me valeur (d\303\251placement vers la droite), tout comme chaque \303\251l\303\251ment de la deuxi\303\250me ligne (d\303\251placement vers le haut).</Font></Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Trans:=proc(m,a,b)
+local i,r:
+r:=Matrix(2,ColumnDimension(m)):
+for i from 1 to ColumnDimension(m) do
+   r[1,i]:=a;
+   r[2,i]:=b 
+od:
+return r;
+end:</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font foreground="[0,0,255]" encoding="UTF-8">La proc\303\251dure Rot(t)</Font></Text-field></Title>
+<Group labelreference="L3093" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="14" encoding="UTF-8">La proc\303\251dure </Font><Font size="14" bold="true">Rot(t)</Font><Font size="14"> construit la matrice de rotation d'angle t <Font underline="true" encoding="UTF-8">degr\303\251s</Font><Font encoding="UTF-8">. (Comme les angles dans MAPLE sont en radians, la proc\303\251dure va effectuer la conversion).</Font></Font></Text-field><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Rot:=t-&gt;evalf(&lt;cos(t*Pi/180),-sin(t*Pi/180);sin(t*Pi/180),cos(t*Pi/180)&gt;):</Text-field>
+</Input>
+</Group>
+</Section>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 2" layout="Heading 2"><Font foreground="[0,0,255]" encoding="UTF-8">La proc\303\251dure Hom(k)</Font></Text-field></Title>
+<Group labelreference="L3104" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" layout="Normal"><Font size="14" encoding="UTF-8">La proc\303\251dure </Font><Font size="14" bold="true">Hom(k)</Font><Font size="14"> construit la<Font encoding="UTF-8"> matrice d'homoth\303\251tie de facteur k.</Font></Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L3101" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Hom:=k -&gt; &lt;k,0;0,k&gt;;</Text-field>
+</Input>
+</Group>
+</Section>
+<Group labelreference="L3094" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3099" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field style="Text" size="16" layout="Normal"><Font size="16" foreground="[0,0,255]" encoding="UTF-8">Fin du pr\303\251ambule</Font></Text-field>
+</Input>
+</Group>
+</Section>
+</Section>
+<Group hide-input="false" labelreference="L1" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" family="Monospaced" layout="Normal"><Font family="Monospaced">fenetre:=[-25..25,-20..20]:
+</Font><Font family="Courier New">with(ColorTools):
+GetColorNames():</Font><Font family="Monospaced">
+</Font><Font encoding="UTF-8" family="Courier New">equipe := &quot;\303\211quipe 02 : Alexandre G\303\251linas et Myriam Bellerose&quot;:</Font><Font family="Monospaced">
+
+###############################
+#   IMPORTATION DES MATRIX    #
+###############################
+
+</Font><Font family="Courier New">fish               := ReadMatrixFromFile(&quot;Poisson.txt&quot;):
+nuage              := ReadMatrixFromFile(&quot;Nuage.txt&quot;):
+eau                := ReadMatrixFromFile(&quot;Eau.txt&quot;):
+statue1            := ReadMatrixFromFile(&quot;Statue1.txt&quot;):
+statue2            := ReadMatrixFromFile(&quot;Statue2.txt&quot;):
+montagne           := ReadMatrixFromFile(&quot;Montagne.txt&quot;):
+maison             := ReadMatrixFromFile(&quot;Maison.txt&quot;):
+village            := ReadMatrixFromFile(&quot;Village.txt&quot;):
+montagnes          := ReadMatrixFromFile(&quot;Montagnes.txt&quot;):
+ciel               := ReadMatrixFromFile(&quot;Ciel.txt&quot;):
+ciel2              := ReadMatrixFromFile(&quot;Ciel2.txt&quot;):
+rocher             := ReadMatrixFromFile(&quot;Rocher.txt&quot;):
+montagne2          := ReadMatrixFromFile(&quot;Montagne2.txt&quot;):
+montagne3          := ReadMatrixFromFile(&quot;Montagne3.txt&quot;):
+krokmoucorp        := ReadMatrixFromFile(&quot;Corp.txt&quot;):
+krokmou1           := ReadMatrixFromFile(&quot;Krokmou1.txt&quot;):
+krokmouailedroite  := ReadMatrixFromFile(&quot;Aile_droite.txt&quot;):
+aile_arriere       := ReadMatrixFromFile(&quot;AileArr.txt&quot;):
+YeuxVert           := ReadMatrixFromFile(&quot;FondYeux.txt&quot;):
+pupille            := ReadMatrixFromFile(&quot;Pupille.txt&quot;):
+dents              := ReadMatrixFromFile(&quot;Dents.txt&quot;):
+fish               := ReadMatrixFromFile(&quot;poisson.txt&quot;):
+krokmouFace        := ReadMatrixFromFile(&quot;KrokmouFace.txt&quot;):
+titre              := ReadMatrixFromFile(&quot;Titre.txt&quot;):
+trou               := ReadMatrixFromFile(&quot;Trou.txt&quot;):
+
+</Font><Font family="Monospaced">###############################</Font><Font family="Courier New">
+<Font encoding="UTF-8">#           D\303\211CORS            #
+</Font></Font><Font family="Monospaced">###############################</Font><Font family="Courier New">
+
+image_fish         := RelierPlein(fish,&quot;DodgerBlue&quot;):
+image_eau          := RelierPlein(eau,&quot;LightSkyBlue&quot;):
+image_statue1      := RelierPlein(statue1,&quot;SlateGray&quot;):
+image_statue2      := RelierPlein(statue2,&quot;SlateGray&quot;):
+image_montagne     := RelierPlein(montagne,&quot;RosyBrown&quot;):
+image_maison       := RelierPlein(maison,&quot;RosyBrown&quot;):
+image_village      := RelierPlein(village,&quot;RosyBrown&quot;):
+image_montagnes    := RelierPlein(montagnes,&quot;RosyBrown&quot;):
+image_ciel         := RelierPlein(ciel,&quot;AliceBlue&quot;):
+image_ciel2        := RelierPlein(ciel2,&quot;AliceBlue&quot;):
+image_rocher       := RelierPlein(rocher,&quot;RosyBrown&quot;):
+image_montagne2    := RelierPlein(montagne2,Lighten(&quot;Thistle&quot;,1)):
+image_montagne3    := RelierPlein(montagne3,&quot;RosyBrown&quot;):
+nuage1             := (3 / 4)*nuage:
+image_nuage        := RelierPlein(nuage1+Trans(nuage1, 10, 15),&quot;White&quot;):
+image_nuage2       := RelierPlein(nuage1+Trans(nuage1, 0, 12),&quot;White&quot;):
+image_nuage3       := RelierPlein(nuage1+Trans(nuage1, -10, 13),&quot;White&quot;):
+image_nuage4       := RelierPlein(nuage1+Trans(nuage1, -5, 15.5),&quot;White&quot;):
+image_nuage5       := RelierPlein(nuage1+Trans(nuage1, -16, 14),&quot;White&quot;):
+image_nuage6       := RelierPlein(nuage1+Trans(nuage1, -25, 12.5),&quot;White&quot;):
+decor              := display(image_nuage,image_nuage2,image_nuage3,image_nuage4,              image_nuage5,image_nuage6,image_ciel2,image_eau,image_statue1,image_statue2,                image_montagne,image_maison,image_village,image_montagnes,image_rocher,image_montagne2,     image_montagne3,image_ciel, style=polygon):
+</Font><Font family="Monospaced">
+</Font><Font family="Courier New">###############################
+#   TRASNFORMATION INITIALE   #
+###############################</Font><Font family="Monospaced">
+
+hom_dents          := Hom(14).(dents + Trans(dents, -13.5, -2.5))+dents:
+hom_fish           := Hom(2).fish:
+krokmouailegauche  := (6 / 8) * krokmouailedroite:
+</Font><Font family="Courier New">Posailegauche0     := krokmouailegauche + Trans(krokmouailedroite, 0.9, 2.9):</Font><Font family="Monospaced">
+Posailegauche1     := krokmouailegauche + Trans(krokmouailedroite, 0.6, 5.3):
+Posailegauche2     := Rot(332).Posailegauche0:
+</Font><Font family="Courier New">Posailedroite0     := krokmouailedroite + Trans(krokmouailedroite, 0, -2.3):
+rotranskrokmouFace := (1 / 5) * (Rot(11).(krokmouFace+Trans(krokmouFace,3.80,-0.42))):
+
+image_dents        := RelierPlein(hom_dents,white):</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L3516" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">###############################
+#     ANIMATION 1 -&gt; VOL      #
+###############################
+
+for k from 0 to 11 do
+   trans1x            := -42 + (3 * k):
+   vitailes           := sin(2 / 3 * (k + 3)):
+   SymY               := &lt;1,0;0,(vitailes)&gt;:
+
+   krokmoucorp_debut  := krokmoucorp + Trans(krokmoucorp, trans1x, 0):
+   ailes_mouvd        := SymY.Posailedroite0 + Trans(Posailedroite0, trans1x, 2.3):
+   ailes_mouvg        := SymY.Posailegauche2 + Trans(Posailegauche0, trans1x + 0.9, 2.6):
+   pupille_debut      := pupille + Trans(pupille, trans1x, 0):
+   krokmouaiar_debut  := aile_arriere + Trans(aile_arriere, trans1x, 0):
+   yeuxvert_debut     := YeuxVert + Trans(YeuxVert, trans1x, 0):
+
+   image_krokmoudebut := RelierPlein(krokmoucorp_debut, black):
+   voled              := RelierPlein(ailes_mouvd, black):
+   voleg              := RelierPlein(ailes_mouvg, black):
+   image_pupilledebut := RelierPlein(pupille_debut, black):
+   image_ailearrdebut := RelierPlein(krokmouaiar_debut, black):
+   image_yeuxvdebut   := RelierPlein(yeuxvert_debut,&quot;PaleGreen&quot;):
+
+   animdebut[k]       := display(image_pupilledebut, image_yeuxvdebut, image_krokmoudebut,        voled, voleg, image_ailearrdebut, decor):
+od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3526" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">###############################
+#  ANIMATION 2 -&gt; PIROUETTE   #
+###############################
+
+for k from 0 to 12 do
+   Rot360             := 30 * k:
+   rot_objet          := (Rot(Rot360)):
+
+   transrotcorp       := krokmoucorp_debut + Trans(krokmoucorp, 0, -10):
+   transrotpupille    := pupille_debut + Trans(pupille, 0, -10):
+   transrotailear     := krokmouaiar_debut + Trans(aile_arriere, 0, -10):
+   transrotyeuxvert   := yeuxvert_debut + Trans(YeuxVert, 0, -10):
+   transrotailed      := ailes_mouvd + Trans(ailes_mouvd, 0, -10):
+   transrotaileg      := ailes_mouvg + Trans(ailes_mouvg, 0, -10):
+
+   mouvementcorp      := rot_objet.transrotcorp + Trans(krokmoucorp_debut, 0, 10):
+   mouvementpupille   := rot_objet.transrotpupille + Trans(pupille_debut, 0, 10):
+   mouvementailear    := rot_objet.transrotailear + Trans(krokmouaiar_debut, 0, 10):
+   mouvementyeuxvert  := rot_objet.transrotyeuxvert + Trans(yeuxvert_debut, 0, 10):
+   mouvementailed     := rot_objet.transrotailed + Trans(ailes_mouvd, 0, 10):
+   mouvementaileg     := rot_objet.transrotaileg + Trans(ailes_mouvg, 0, 10):
+
+   image_rotcorp      := RelierPlein(mouvementcorp, black):
+   image_rotpupille   := RelierPlein(mouvementpupille, black):
+   image_rotailear    := RelierPlein(mouvementailear, black):
+   image_rotyeuxvert  := RelierPlein(mouvementyeuxvert,&quot;PaleGreen&quot;):
+   image_rotailed     := RelierPlein(mouvementailed, black):
+   image_rotaileg     := RelierPlein(mouvementaileg, black):
+
+   animboucle[k]      := display(image_rotpupille, image_rotyeuxvert, image_rotcorp,              image_rotailear, image_rotailed, image_rotaileg, decor):
+od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3527" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">###############################
+#     ANIMATION 3 -&gt; ZOOM     #
+###############################
+
+for k from 1 to 27 do
+   vitailes2          := (sin(2 / 3 * (k - 1)) * (-1)):
+   SymY2              := &lt;1,0;0,(vitailes2)&gt;:
+   hom_objet          := Hom((k + 1) / 2):
+
+   ailes_mouvd2       := SymY2.Posailedroite0 + Trans(Posailedroite0, trans1x, 2.3):
+   ailes_mouvg2       := SymY2.Posailegauche2 + Trans(Posailegauche0, trans1x + 0.9, 2.6):
+
+   hom_ailed          := hom_objet.(ailes_mouvd2 + Trans(ailes_mouvd2, -4, -2.5)) +               ailes_mouvd2:
+   hom_aileg          := hom_objet.(ailes_mouvg2 + Trans(ailes_mouvg2, -4, -2.5)) +               ailes_mouvg2:
+   hom_corp           := hom_objet.(mouvementcorp + Trans(mouvementcorp, -4, -2.5)) +             mouvementcorp:
+   hom_pupille        := hom_objet.(mouvementpupille + Trans(mouvementpupille, -4, -2.5)) +       mouvementpupille:
+   hom_yeuxvert       := hom_objet.(mouvementyeuxvert + Trans(mouvementyeuxvert, -4, -2.5))       + mouvementyeuxvert:
+   hom_ailearr        := hom_objet.(mouvementailear + Trans(mouvementailear, -4, -2.5)) +         mouvementailear:
+
+   voled2             := RelierPlein(hom_ailed, black):
+   voleg2             := RelierPlein(hom_aileg, black):
+   image_homcorp      := RelierPlein(hom_corp, black):
+   image_hompupille   := RelierPlein(hom_pupille, black):
+   image_homyeuxvert  := RelierPlein(hom_yeuxvert, &quot;PaleGreen&quot;):
+   image_homailearr   := RelierPlein(hom_ailearr, black):
+
+   animfaim[k]        := display(image_hompupille, image_homyeuxvert, image_homcorp,              image_homailearr, voled2, voleg2, decor):
+od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3576" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">###############################
+#    ANIMATION 4 -&gt; CROCK     #
+###############################
+
+for k from 0 to 18 do
+   vitailes3          := sin(-2 / 3 * (k + 27)):
+   SymY3              := &lt;1,0;0,(vitailes3)&gt;:
+
+   ailes_mouvd3       := SymY3.hom_ailed:
+   ailes_mouvg3       := SymY3.hom_aileg:
+
+   voled3             := RelierPlein(ailes_mouvd3, black):
+   voleg3             := RelierPlein(ailes_mouvg3, black):
+
+   animdents[k]       := display(image_dents, image_hompupille, image_homyeuxvert,                image_homcorp, image_homailearr, voled3, voleg3, decor):
+od:</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false">###############################
+#    ANIMATION 5 -&gt; VOL 2     #
+###############################
+
+for k from 0 to 11 do
+   trans2x            := 20 * k:
+   vitailes4          := sin(2 / 3 * (k + 3)):
+   SymY4              := &lt;1,0;0,(vitailes4)&gt;:
+
+   krokmoucorp_depart := hom_corp + Trans(hom_corp, trans2x, 0):
+   ailes_mouvd4       := SymY4.ailes_mouvd3 + Trans(ailes_mouvd3, trans2x, 2.3):
+   ailes_mouvg4       := SymY4.ailes_mouvg3 + Trans(ailes_mouvg3, trans2x + 0.9, 2.6):
+   pupille_depart     := hom_pupille + Trans(hom_pupille, trans2x, 0):
+   krokmouaiar_depart := hom_ailearr + Trans(hom_ailearr, trans2x, 0):
+   yeuxvert_depart    := hom_yeuxvert + Trans(hom_yeuxvert, trans2x, 0):
+   dents_depart       := hom_dents + Trans(hom_dents, trans2x, 0):
+
+   image_krokmoudepart:= RelierPlein(krokmoucorp_depart, black):
+   voled4             := RelierPlein(ailes_mouvd4, black):
+   voleg4             := RelierPlein(ailes_mouvg4, black):
+   image_pupilledepart:= RelierPlein(pupille_depart, black):
+   image_ailearrdepart:= RelierPlein(krokmouaiar_depart, black):
+   image_yeuxvdepart  := RelierPlein(yeuxvert_depart,&quot;PaleGreen&quot;):
+   image_dentsdepart  := RelierPlein(dents_depart,white):
+
+   animdepart[k]      := display(image_dentsdepart, image_pupilledepart, image_yeuxvdepart,       image_krokmoudepart, voled4, voleg4, image_ailearrdepart, decor):
+od:</Text-field>
+</Input>
+<Input><Text-field prompt="&gt; " style="Maple Input" spaceabove="0" linebreak="space" rightmargin="0" linespacing="0.0" initial="0" firstindent="0" leftmargin="0" bulletsuffix="" alignment="left" bullet="none" spacebelow="0" pagebreak-before="false">###############################
+#   ANIMATION 6 -&gt; CAPTURE    #
+###############################
+
+for k from 0 to 20 do
+   trans3x            := -142 + (10 * k):
+   tourneobjet        := &lt;-1,0;0,1&gt;:
+   SymY5              := &lt;1,0;0,0.1&gt;:
+
+   if k &lt; 14 then
+      fishy              := -((k - 11) ^ 2) - 5:
+      fishx              := k - 30:
+      fishpos            := hom_fish:
+   elif k = 14 then
+      fishpos            := fishcatch:
+      fishy              := 0:
+      fishx              := (-10 * (k - 14)) - 10:
+   elif k &gt; 13 then
+      fishy              := 0:
+      fishx              := (-10 * (k - 14)) - 10:
+   end if:
+
+   fishcatch          := fishpos + Trans(hom_fish, fishx, fishy):
+   krokmoucorpinv     := krokmoucorp + Trans(krokmoucorp, trans3x, 0):
+   ailes_mouvd5       := SymY5.Posailedroite0 + Trans(Posailedroite0, trans3x, 2.3):
+   ailes_mouvg5       := SymY5.Posailegauche2 + Trans(Posailegauche0, trans3x + 0.9, 2.6):
+   pupilleinv         := pupille + Trans(pupille, trans3x, 0):
+   krokmouaiarinv     := aile_arriere + Trans(aile_arriere, trans3x, 0):
+   yeuxvertinv        := YeuxVert + Trans(YeuxVert, trans3x, 0):
+   dentsinv           := dents + Trans(dents, trans3x, 0):
+
+   image_fishcatch    := RelierPlein(fishcatch, &quot;LightSlateGray&quot;):
+   image_krokmouinv   := RelierPlein(tourneobjet.krokmoucorpinv, black):
+   voled5             := RelierPlein(tourneobjet.ailes_mouvd5, black):
+   voleg5             := RelierPlein(tourneobjet.ailes_mouvg5, black):
+   image_pupilleinv   := RelierPlein(tourneobjet.pupilleinv, black):
+   image_ailearrinv   := RelierPlein(tourneobjet.krokmouaiarinv, black):
+   image_yeuxvinv     := RelierPlein(tourneobjet.yeuxvertinv,&quot;PaleGreen&quot;):
+   image_dentsvinv    := RelierPlein(tourneobjet.dentsinv,white):
+
+   animcatch[k]       := display(image_dentsvinv, image_pupilleinv, image_yeuxvinv,               image_krokmouinv, voled5, voleg5, image_ailearrinv, image_fishcatch, decor):
+od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L3709" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">###############################
+#    ANIMATION 7 -&gt; CHARGE    #
+###############################
+
+for k from 1 to 22 do 
+   hom_fin            := Hom(k/10):
+
+   hom_krokface       := (hom_fin.rotranskrokmouFace):
+
+   image_hom_krokface := RelierPlein(hom_krokface+rotranskrokmouFace,black):
+
+   animhom[k]         := display(image_hom_krokface,decor):
+od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L3848" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">###############################
+#   ANIMATION 8 -&gt; FIRESHOT   #
+###############################
+
+for k from 1 to 45 do
+
+   if k &lt; 14 then
+      fcolor          := Adjust(&quot;BlueViolet&quot;, lightness = ((-k * 10) + 30)):
+   elif k &gt; 14 then
+      fcolor          := Darken(&quot;BlueViolet&quot;, 2.4 + ((k - 14) * 1.01)):
+   end if:
+
+   if k &lt; 21 then
+      homfire         := (1.25 ^ k) * (1 / 2)
+   end if:
+
+   fireshot           := disk([0,0.5], homfire, color=fcolor, style=polygon):
+   image_trou         := RelierPlein(trou, fcolor):
+   image_titre        := RelierPlein(titre, &quot;Red&quot;):
+
+   if k &lt;= 30 then
+      animfireshot[k]    := display(fireshot, image_hom_krokface, decor):
+   elif k &gt; 30 then
+      animfireshot[k]    := display(image_trou, image_titre, fireshot, image_hom_krokface,          decor):
+   end if:
+od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4034" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">###############################
+#        DISPLAY FINAL        #
+###############################
+
+display(seq(animdebut[k],    k=0..11),
+        seq(animboucle[k],   k=0..12),
+        seq(animfaim[k],     k=1..27),
+        seq(animdents[k],    k=0..18),
+        seq(animdepart[k],   k=0..11),
+        seq(animcatch[k],    k=0..20),
+        seq(animhom[k],      k=1..22),
+        seq(animfireshot[k], k=1..45),
+        insequence=true, view=fenetre, scaling=constrained, title=equipe, axes=none);</Text-field>
+</Input>
+</Group>
+<Group labelreference="L4048" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
